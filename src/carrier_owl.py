@@ -41,7 +41,7 @@ def calc_score(abst: str, keywords: dict) -> (float, list):
 
 
 def search_keyword(
-        articles: list, keywords: dict, score_threshold: float
+        articles: list
         ) -> list:
     results = []
     
@@ -191,7 +191,7 @@ def main():
                            max_results=1000,
                            sort_by='submittedDate',
                            iterative=False)
-    results = search_keyword(articles, keywords, score_threshold)
+    results = search_keyword(articles)
 
     slack_id = os.getenv("SLACK_ID") or args.slack_id
     line_token = os.getenv("LINE_TOKEN") or args.line_token
