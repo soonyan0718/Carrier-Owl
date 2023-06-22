@@ -8,7 +8,7 @@ keywords:
         cluster: 1
         rejuvenate: 1
         stacking: 1
-        .: 0
+        a: 0
         
 # 通知の閾値
 score_threshold: 0
