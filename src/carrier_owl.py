@@ -181,7 +181,7 @@ def main():
 
     day_before_yesterday = datetime.datetime.today()- datetime.timedelta(days=2)
     yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-    day_before_yesterday_str = day_before_yesterday.strftime('%Y%m%d')
+    day_before_yesterday_str = day_before_yesterday.strftime('%Y%m%d')+ '180000'
     yesterday_str = yesterday.strftime('%Y%m%d')
     # datetime format YYYYMMDDHHMMSS
     arxiv_query = f'({subject}) AND ' \
