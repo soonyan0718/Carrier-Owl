@@ -56,7 +56,6 @@ def search_keyword(
         url = article['arxiv_url']
         title = article['title']
         abstract = article['summary']
-            results.append(result)
     
     # ブラウザ停止
     driver.quit()
