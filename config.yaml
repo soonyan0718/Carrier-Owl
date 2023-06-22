@@ -3,11 +3,6 @@ subject: 'cat:astro-ph.GA'
 
 # 検索キーワード
 keywords:
-        AGN: 2
-        blackhole: 1
-        stacking: 3
-        X-ray: 2
-        SMBH: 2
 
 # 通知の閾値
 score_threshold: 0
