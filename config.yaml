@@ -4,6 +4,9 @@ subject: 'cat:astro-ph.GA'
 # 検索キーワード
 keywords:
         AGN: 1
-
+        Quiench: 1
+        cluster: 1
+        rejuvenate: 1
+        
 # 通知の閾値
 score_threshold: 0
