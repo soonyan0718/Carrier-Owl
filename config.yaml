@@ -3,11 +3,11 @@ subject: 'cat:astro-ph.GA'
 
 # 検索キーワード
 keywords:
-        AGN: 1
-        Quiench: 1
-        cluster: 1
-        rejuvenate: 1
-        stacking: 1
+        AGN: 2
+        Quiench: 2
+        cluster: 2
+        rejuvenate: 2
+        stacking: 2
         a: 0
         
 # 通知の閾値
